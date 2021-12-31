@@ -4,7 +4,7 @@
 
 using namespace std;
 
-
+//十进制转二进制，
 long dectoBin(int dec){
     long result = 0,temp = dec, j = 1;
     while(temp){
