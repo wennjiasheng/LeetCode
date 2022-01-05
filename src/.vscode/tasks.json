@@ -42,6 +42,7 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
+                "-std=c++11",
                 "-g",
                 "${file}",
                 "-o",
